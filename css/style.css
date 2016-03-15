@@ -2,40 +2,73 @@ body {
   background-color: #880000;
 }
 
-h1 {
-  color: white;
+
+#fuzzy-nav {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  background-color: #444;
+  padding: 2rem .5rem;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+  transition: .3s text-shadow linear;
+  font-weight: 400;
+  font-family: Avenir, Helvetica, sans-serif;
+}
+#fuzzy-nav a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.8rem; padding: 1.5em;
+  border-bottom: none;
+  position: relative;
+}
+#fuzzy-nav a:hover {
+  color:  yellow;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+  opacity: 1;
 }
 
-nav {
+#fuzzy-nav a span {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #999;
+  display: block;
+  text-transform: uppercase;
+  position: absolute;
+/*  top: 2rem;*/
+  left: 5rem;
+  width: 15rem;
+  line-height: 1.3;
+ }
+
+ #fuzzy-nav:hover a {
+  text-shadow: 0 0 6px #fff;
+  opacity: 0.4;
+}
+
+#fuzzy-nav a:hover {
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+  opacity: 1;
+}
+
+#container1 {
+  margin-top: 5rem;
   width: 100%;
 }
-
-nav li:hover {
-    background-color: gray;
+#leftdiv {
+  padding-top: 2rem;
+  width: 49.75%;
+  height: 32rem;
+  float: left;
 }
+#rightdiv {
+  padding-top: 2rem;
+  width: 49.75%;
+  height: 32rem;
+   float: left;
+ }
+.clear {clear:both;}
 
-nav li{
-  border: solid 7px gray;
-  border-radius: 25px;
-  background: black;
-  display: inline;
-  padding: 12px 20px;
-}
 
-nav a{
-  text-decoration: none;
-  color: white;
-}
-
-p {
-  position: relative;
-  color: white;
-  font-size: 100px;
-  margin: 50px auto 25px auto;
-  text-align: center;
-  font-family: Tangerine;
-  text-shadow: 4px 4px 4px #aaa;
-}
 
 img{
   display: block;
@@ -44,17 +77,33 @@ img{
   border-radius: 45px;
 }
 
-
-footer {
-  border:2px solid yellow;
+h1 {
+  font-family: Avenir, Helvetica, sans-serif;
+  font-size: 84px;
+  text-align: center;
+  width: 100%;
+  color: white;
 }
 
-div {
+h2{
+  font-family: Avenir, Helvetica, sans-serif;
+  font-size: 34px;
+  text-align: center;
+  width: 100%;
+  color: white;
+}
+
+
+/*footer {
+  border:2px solid yellow;
+}*/
+
+/*div {
   width: 1065px;
   height: 50px;
   border: 5px solid green;
   margin: 19px auto;
-}
+}*/
 
 
 button{
