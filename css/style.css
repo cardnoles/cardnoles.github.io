@@ -3,8 +3,10 @@ body {
 }
 
 
+
+
 #fuzzy-nav {
-  border:1px solid pink;
+  border:2px solid yellow;
   width: 98%;
   position: fixed;
   top: 0;
@@ -50,38 +52,106 @@ body {
   text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
   opacity: 1;
 }
-
-#container1 {
-  margin-top: 7rem;
+.content {
+  border: 3px dotted black;
   width: 100%;
+  position: relative;
+  overflow: hidden;
+  margin-top: 9em;
 }
-#leftdiv {
-  padding-top: 10rem;
-  width: 49.75%;
-  height: 32rem;
+
+
+.left-right {
+    float: left;
+    position: relative;
+    display: inline-block;
+/*    margin-left: 45em;
+    margin-top: 7em;
+    overflow:hidden;*/
+    margin-left: 1em;
+    height: 43em;
+    width: 43em;
+    background-color:#333;
+}
+.slider2 {
+    float: left;
+    width:43em;
+    height:43em;
+    position:absolute;
+    top:0;
+    right:-50em;
+    background-color:#000;
+    color:#fff;
+}
+
+.right-left {
+    position: relative;
+    display: inline-block;
+    float: left;
+/*    margin-left: 0px;
+    margin-top: 7em;
+    overflow:hidden;*/
+    margin-right: 1em;
+    height:43em;
+    width:43em;
+    background-color:#fff;
+}
+.slider1 {
+    float: left;
+    width:43em;
+    height:43em;
+    position:absolute;
+    top:0;
+    left:-50em;
+    background-color:#000;
+    color:#fff;
+}
+
+/*.container {
+  border: 2px solid yellow;
+  width: 100%;
+  max-width: 1260px;
+  margin: auto;
+}*/
+
+
+
+/*.infoholder {
+  height: 42em;
   float: left;
+  width: 48%;
+  text-align: center;
+  margin-bottom: 4em;
 }
-#rightdiv {
-  padding-top: 10rem;
-  width: 49.75%;
-  height: 32rem;
-   float: left;
- }
-.clear {clear:both;}
 
-
-
-img{
+.infoholder img {
   display: block;
-  margin: auto auto;
+  margin: 8em auto;
   border: solid white 2px;
   border-radius: 45px;
 }
 
+.left {
+  margin-right: .75em;
+}
+
+.right {
+  border: 2px solid white;
+  margin-left: 1200px;
+}*/
+
+
+.clearfix::after {
+  content: " ";
+  display: inline-block;
+  clear: both;
+}
+
+
+
 h1 {
   font-family: Avenir, Helvetica, sans-serif;
   font-size: 84px;
-  text-align: center;
   width: 100%;
   color: white;
 }
@@ -89,22 +159,18 @@ h1 {
 h2{
   font-family: Avenir, Helvetica, sans-serif;
   font-size: 34px;
-  text-align: center;
+  width: 100%;
+  color: white;
+}
+
+h3{
+  font-family: Avenir, Helvetica, sans-serif;
+  font-size: 34px;
   width: 100%;
   color: white;
 }
 
 
-/*footer {
-  border:2px solid yellow;
-}*/
-
-/*div {
-  width: 1065px;
-  height: 50px;
-  border: 5px solid green;
-  margin: 19px auto;
-}*/
 
 
 button{

@@ -1,24 +1,31 @@
-All code is commented out on purpose
 
-/*var $ = function(id) {
-  alert("$ function is working");
-  return document.getElementById(id);
-}
-alert("this works");
 
-var clickedMe = function() {
-  alert("you have clicked the CLICK ME button");
-}
+$(document).ready(function(){
+  console.log("this is connected");
 
-var clickedToo = function() {
-    alert("you have clicked the CLICK ME TOO button");
+function fromRight() {
+  $('.slider2').stop().animate({
+      right: 0
+    }, 400);
+  };
 
-}
+  function fromLeft() {
+    $('.slider1').stop().animate({
+      left: 0
+    }, 400);
+    };
 
-window.onload = function () {
-  $("me").onclick = clickedMe;
-  $("too").onclick  =clickedToo;
-}*/
+
+
+    $('#home').on("click", function(){
+      fromRight();
+      fromLeft();
+    });
+
+});
+
+
+
 
 
 
