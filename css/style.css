@@ -54,49 +54,62 @@ body {
 }
 .content {
   border: 3px dotted black;
+  float: left;
+  height: 35em;
+  background-color: #333;
   width: 100%;
   position: relative;
+  display: inline-block;
   overflow: hidden;
+  margin-left: 1em;
   margin-top: 9em;
 }
 
 
-.left-right {
+/*.left-right {
     float: left;
     position: relative;
     display: inline-block;
-/*    margin-left: 45em;
-    margin-top: 7em;
-    overflow:hidden;*/
+    overflow:hidden;
     margin-left: 1em;
     height: 35em;
     width: 35em;
     background-color:#333;
-}
-.slider2 {
-  border: 1px solid yellow;
-    float: left;
-    width:35em;
-    height:35em;
-    position:absolute;
-    top:0;
-    right:-50em;
-    background-color:#000;
-    color:#fff;
 }
 
 .right-left {
     position: relative;
     display: inline-block;
     float: left;
-/*    margin-left: 0px;
-    margin-top: 7em;
-    overflow:hidden;*/
+    overflow:hidden;
     margin-right: 1em;
     height:35em;
     width:35em;
     background-color:#fff;
+}*/
+
+/*.left-right2 {
+    float: left;
+    position: relative;
+    display: inline-block;
+    overflow:hidden;
+    margin-left: 1em;
+    height: 35em;
+    width: 35em;
+    background-color:#333;
 }
+
+.right-left2 {
+    position: relative;
+    display: inline-block;
+    float: left;
+    overflow:hidden;
+    margin-right: 1em;
+    height:35em;
+    width:35em;
+    background-color:#fff;
+}*/
+
 .slider1 {
   border: 1px solid yellow;
     float: left;
@@ -109,38 +122,41 @@ body {
     color:#fff;
 }
 
-/*.container {
-  border: 2px solid yellow;
-  width: 100%;
-  max-width: 1260px;
-  margin: auto;
-}*/
-
-
-
-/*.infoholder {
-  height: 42em;
-  float: left;
-  width: 48%;
-  text-align: center;
-  margin-bottom: 4em;
+.slider2 {
+  border: 1px solid yellow;
+    float: left;
+    width:35em;
+    height:35em;
+    position:absolute;
+    top:0;
+    right:-50em;
+    background-color:#000;
+    color:#fff;
 }
 
-.infoholder img {
-  display: block;
-  margin: 8em auto;
-  border: solid white 2px;
-  border-radius: 45px;
+.slider3 {
+  border: 1px solid yellow;
+    float: left;
+    width:35em;
+    height:35em;
+    position:absolute;
+    top:0;
+    left:-50em;
+    background-color:#000;
+    color:#fff;
 }
 
-.left {
-  margin-right: .75em;
+.slider4 {
+  border: 1px solid yellow;
+    float: left;
+    width:35em;
+    height:35em;
+    position:absolute;
+    top:0;
+    right:-50em;
+    background-color:#000;
+    color:#fff;
 }
-
-.right {
-  border: 2px solid white;
-  margin-left: 1200px;
-}*/
 
 
 .clearfix::after {
