@@ -61,8 +61,8 @@ body {
 
 #intro2 {
 /*  border:2px solid white;*/
-  font-size: 12em;
-  margin-top: -.12em;
+  font-size: 8em;
+  margin-top: -1.75em;
   text-align: center;
 }
 
@@ -82,10 +82,9 @@ body {
 
 
 .slider1 {
-/*  border: 1px solid yellow;*/
     float: left;
-    width:37em;
     height:35em;
+    width: 100%;
     position:absolute;
     top:0;
     left:0;
@@ -93,22 +92,22 @@ body {
     color:#fff;
 }
 
-.slider2 {
-/*    border: 1px solid yellow;*/
+/*.slider2 {
+    border: 1px solid yellow;
     float: left;
-    width:37em;
+    width:38em;
     height:35em;
     position:absolute;
     top:0;
     right:0;
     background-color: #880000;
     color:#fff;
-}
+}*/
 
 .slider3 {
   border: 1px solid yellow;
     float: left;
-    width:37em;
+    width:38em;
     height:35em;
     position:absolute;
     top:0;
@@ -125,7 +124,7 @@ body {
 .slider4 {
   border: 1px solid yellow;
     float: left;
-    width:37em;
+    width:38em;
     height:35em;
     position:absolute;
     top:0;
@@ -137,7 +136,7 @@ body {
 .slider5 {
   border: 1px solid yellow;
     float: left;
-    width:37em;
+    width:38em;
     height:35em;
     position:absolute;
     top:0;
@@ -149,7 +148,7 @@ body {
 .slider6 {
   border: 1px solid yellow;
     float: left;
-    width:37em;
+    width:38em;
     height:35em;
     position:absolute;
     top:0;
@@ -173,7 +172,7 @@ body {
 .slider7 {
   border: 1px solid yellow;
     float: left;
-    width:37em;
+    width:38em;
     height:35em;
     position:absolute;
     top:0;
@@ -185,7 +184,7 @@ body {
 .slider8 {
   border: 1px solid yellow;
     float: left;
-    width:37em;
+    width:38em;
     height:35em;
     position:absolute;
     top:0;
