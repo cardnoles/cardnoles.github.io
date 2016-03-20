@@ -65,55 +65,10 @@ body {
   margin-top: 9em;
 }
 
-
-/*.left-right {
-    float: left;
-    position: relative;
-    display: inline-block;
-    overflow:hidden;
-    margin-left: 1em;
-    height: 35em;
-    width: 35em;
-    background-color:#333;
-}
-
-.right-left {
-    position: relative;
-    display: inline-block;
-    float: left;
-    overflow:hidden;
-    margin-right: 1em;
-    height:35em;
-    width:35em;
-    background-color:#fff;
-}*/
-
-/*.left-right2 {
-    float: left;
-    position: relative;
-    display: inline-block;
-    overflow:hidden;
-    margin-left: 1em;
-    height: 35em;
-    width: 35em;
-    background-color:#333;
-}
-
-.right-left2 {
-    position: relative;
-    display: inline-block;
-    float: left;
-    overflow:hidden;
-    margin-right: 1em;
-    height:35em;
-    width:35em;
-    background-color:#fff;
-}*/
-
 .slider1 {
   border: 1px solid yellow;
     float: left;
-    width:35em;
+    width:37em;
     height:35em;
     position:absolute;
     top:0;
@@ -125,7 +80,7 @@ body {
 .slider2 {
   border: 1px solid yellow;
     float: left;
-    width:35em;
+    width:37em;
     height:35em;
     position:absolute;
     top:0;
@@ -137,7 +92,7 @@ body {
 .slider3 {
   border: 1px solid yellow;
     float: left;
-    width:35em;
+    width:37em;
     height:35em;
     position:absolute;
     top:0;
@@ -146,10 +101,75 @@ body {
     color:#fff;
 }
 
+.slider3 img {
+  width: 49%;
+  height: 49%;
+}
+
 .slider4 {
   border: 1px solid yellow;
     float: left;
-    width:35em;
+    width:37em;
+    height:35em;
+    position:absolute;
+    top:0;
+    right:-50em;
+    background-color:#000;
+    color:#fff;
+}
+
+.slider5 {
+  border: 1px solid yellow;
+    float: left;
+    width:37em;
+    height:35em;
+    position:absolute;
+    top:0;
+    left:-50em;
+    background-color:#000;
+    color:#fff;
+}
+
+.slider6 {
+  border: 1px solid yellow;
+    float: left;
+    width:37em;
+    height:35em;
+    position:absolute;
+    top:0;
+    right:-50em;
+    background-color:#000;
+    color:#fff;
+}
+
+.slider6 img {
+    width: 100%;
+    height: 100%;
+}
+
+#publix {
+  width: 45%;
+  height: 45%;
+  border: 2px solid yellow;
+  border-radius: 50%;
+}
+
+.slider7 {
+  border: 1px solid yellow;
+    float: left;
+    width:37em;
+    height:35em;
+    position:absolute;
+    top:0;
+    left:-50em;
+    background-color:#000;
+    color:#fff;
+}
+
+.slider8 {
+  border: 1px solid yellow;
+    float: left;
+    width:37em;
     height:35em;
     position:absolute;
     top:0;
