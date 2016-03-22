@@ -53,21 +53,18 @@ body {
 
 
 #intro1 {
-/*  border:2px solid white;*/
   font-size: 16em;
   margin-top: -.005em;
   text-align: center;
 }
 
 #intro2 {
-/*  border:2px solid white;*/
   font-size: 8em;
   margin-top: -1.75em;
   text-align: center;
 }
 
 .content {
-/*  border: 3px dotted black;*/
   float: left;
   height: 35em;
   background-color: #880000;
@@ -95,7 +92,7 @@ body {
 /*.slider2 {
     border: 1px solid yellow;
     float: left;
-    width:38em;
+    width:38.5em;
     height:35em;
     position:absolute;
     top:0;
@@ -105,14 +102,13 @@ body {
 }*/
 
 .slider3 {
-  border: 1px solid yellow;
     float: left;
-    width:38em;
+    width:38.5em;
     height:35em;
     position:absolute;
     top:0;
     left:-50em;
-    background-color:#000;
+    background-color: #880000;
     color:#fff;
 }
 
@@ -121,76 +117,239 @@ body {
   height: 49%;
 }
 
+#coding {
+  margin: 0 25%;
+}
+
+
+
+#stage {
+  position: relative;
+  margin: 2em auto;
+  width: 100%;
+  height: 15em;
+}
+
+  @-webkit-keyframes travel {
+    from { left: 0; }
+    to   { left: 30em; }
+  }
+  @keyframes travel {
+    from { left: 0; }
+    to   { left: 30em; }
+  }
+
+
+
+@-webkit-keyframes bounce {
+  from, to  {
+    bottom: 0;
+    -webkit-animation-timing-function: ease-out;
+  }
+  50% {
+    bottom: 1250px;
+    -webkit-animation-timing-function: ease-in;
+  }
+}
+
+
+  @-webkit-keyframes bounce {
+    from, to  {
+      bottom: 0;
+      -webkit-animation-timing-function: ease-out;
+    }
+    50% {
+      bottom: 125px;
+      -webkit-animation-timing-function: ease-in;
+    }
+  }
+
+#traveler{
+  position: absolute;
+    width: 20px;
+    height: 240px;
+
+  -webkit-animation-name: travel;
+  -webit-animation-timing-function: linear;
+  -webkit-animation-direction: alternate;
+  -webkit-animation-duration: 4.8s;
+
+  animation-name: travel;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-duration: 4.8s;
+
+}
+
+
+
+#bouncer .ball {
+
+  width: 8em;
+  height: 8em;
+  position: absolute;
+  border-radius: 50px;
+
+     background: url(http://www.clipartbest.com/cliparts/pc5/eBx/pc5eBxrxi.png) no-repeat;
+ background-size: 100%;
+
+  -webkit-animation-name: bounce;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-duration: 4.2s;
+
+  animation-name: bounce;
+  animation-iteration-count: infinite;
+  animation-duration: 4.2s;
+}
+
+#bouncer .ball:before {
+  content: "";
+  position: absolute;
+  top: 1%;
+  left: 5%;
+  width: 90%;
+  height: 90%;
+  border-radius: 50%;
+  background: radial-gradient(circle at 50% 0px, #ffffff, rgba(255, 255, 255, 0) 58%);
+  -webkit-filter: blur(5px);
+  z-index: 2;
+}
+
+#bouncer .ball:after {
+  content: "";
+  position: absolute;
+  border-radius: 100%;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: radial-gradient(circle at 50% 30%, rgba(245, 237, 48, 0), rgba(200, 190, 20, 0.2) 50%, #575300 100%);
+}
+
+#bouncer .ball .shadow {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(circle, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.1) 40%, rgba(0, 0, 0, 0) 50%);
+    -webkit-transform: rotateX(90deg) translateZ(-160px);
+    transform: rotateX(90deg) translateZ(-160px);
+    z-index: 1;
+}
+
+
+
+
+
+
+
+
+
 .slider4 {
-  border: 1px solid yellow;
     float: left;
-    width:38em;
+    width:38.5em;
     height:35em;
     position:absolute;
     top:0;
     right:-50em;
-    background-color:#000;
+    background-color: #880000;
     color:#fff;
+
+}
+
+.slider4 p {
+  margin: 3em;
+  font-size: 2em;
+  text-align: justify;
+  font-family: Avenir, Helvetica, sans-serif;
+}
+
+.slider4 h1 {
+    font-family: Avenir, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 3em;
 }
 
 .slider5 {
-  border: 1px solid yellow;
     float: left;
-    width:38em;
+    width:38.5em;
     height:35em;
     position:absolute;
     top:0;
     left:-50em;
-    background-color:#000;
     color:#fff;
+    text-align: center;
+    font-family: Avenir, Helvetica, sans-serif;
+}
+
+.slider5 p {
+    margin-top: -1.25em;
+    font-size: 2em;
+}
+
+.slider5 h2 {
+    font-size: 3.5em;
 }
 
 .slider6 {
-  border: 1px solid yellow;
     float: left;
-    width:38em;
+    width:38.5em;
     height:35em;
     position:absolute;
     top:0;
     right:-50em;
-    background-color:#000;
     color:#fff;
 }
 
 .slider6 img {
-    width: 100%;
-    height: 100%;
+  border-radius: 5%;
+    width: 50%;
+    height: 50%;
 }
 
-#publix {
+/*#publix {
   width: 45%;
   height: 45%;
   border: 2px solid yellow;
   border-radius: 50%;
-}
+}*/
 
 .slider7 {
-  border: 1px solid yellow;
     float: left;
-    width:38em;
+    width:38.5em;
     height:35em;
     position:absolute;
     top:0;
     left:-50em;
-    background-color:#000;
     color:#fff;
 }
 
+.slider7 img {
+  border-radius: 5%;
+  width: 49%;
+  height: 49%;
+}
+
 .slider8 {
-  border: 1px solid yellow;
     float: left;
-    width:38em;
+    width:38.5em;
     height:35em;
     position:absolute;
     top:0;
     right:-50em;
-    background-color:#000;
     color:#fff;
+    font-family: Avenir, Helvetica, sans-serif;
+}
+
+
+#list{
+  margin-top: 10%;
+}
+
+
+#cribbage {
+  width: 99%;
+  height: 49%;
 }
 
 
@@ -200,7 +359,29 @@ body {
   clear: both;
 }
 
+/*#slider3Top {
+  border: 2px solid yellow;
+  width: 100%;
+  height: 49%;
+}*/
 
+#tennis {
+  border-radius: 50%;
+  width: 12.5%;
+  height: 25%;
+}
+
+ul {
+  font-size: 3em;
+  font-weight: bold;
+  text-align: center;
+}
+
+li {
+  font-weight: normal;
+  text-align: left;
+  margin-left: 30%;
+}
 
 h1 {
   font-family: Avenir, Helvetica, sans-serif;
