@@ -73,7 +73,7 @@ body {
   display: inline-block;
   overflow: hidden;
   margin-left: 1em;
-  margin-top: 9em;
+  margin-top: 9.75em;
 }
 
 
@@ -118,7 +118,10 @@ body {
 }
 
 #coding {
-  margin: 0 25%;
+  width: 65%;
+  height: 40%;
+  border-radius: 5%;
+  margin: -5% 25%;
 }
 
 
@@ -127,7 +130,7 @@ body {
   position: relative;
   margin: 2em auto;
   width: 100%;
-  height: 15em;
+  height: 17em;
 }
 
   @-webkit-keyframes travel {
@@ -348,7 +351,8 @@ body {
 
 
 #cribbage {
-  width: 99%;
+  margin-left: 5%;
+  width: 89%;
   height: 49%;
 }
 
@@ -375,6 +379,7 @@ ul {
   font-size: 3em;
   font-weight: bold;
   text-align: center;
+  margin-right: 5em;
 }
 
 li {
